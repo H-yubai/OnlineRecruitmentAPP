@@ -6,6 +6,11 @@ buildscript {
     }
     dependencies {
         classpath: "com.android.tools.build:gradle:7.0.3"
+        // 添加 Error Prone 注解库
+        classpath: 'com.google.errorprone:error_prone_annotations:2.23.0'
+
+        // 添加 javax.annotation 库
+        classpath: 'javax.annotation:javax.annotation-api:1.3.2'
     }
 }
 
